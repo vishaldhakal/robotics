@@ -1,0 +1,8 @@
+nav a:hover{
+    cursor: pointer;
+}
+#mybtn{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
