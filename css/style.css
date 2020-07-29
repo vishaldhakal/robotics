@@ -16,9 +16,9 @@ nav a:hover{
     right: 10px;
 }
 .main{
-    background: url("../images/wave.svg");
+    background: url("../images/background-circle.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
 }
 #title{
     font-weight: 800;
@@ -30,4 +30,9 @@ nav a:hover{
 #tex{
     font-weight: 500;
     color: rgb(73, 73, 73);
+}
+@media (max-width:600px){
+    .main{
+        background-size: cover;
+    }
 }
