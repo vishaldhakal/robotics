@@ -30,9 +30,16 @@ nav a:hover{
 #tex{
     font-weight: 500;
     color: rgb(73, 73, 73);
+    font-size: 1.25rem;
 }
 @media (max-width:600px){
     .main{
         background-size: cover;
+    }
+    #aa{
+        display: none;
+    }
+    .title1{
+        font-size: 2.3rem;
     }
 }
