@@ -20,7 +20,7 @@ nav a:hover{
 .main{
     background: url("../images/back.png");
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position-x: left;
 }
 #title{
     font-weight: 800;
@@ -43,6 +43,12 @@ nav a:hover{
         font-size: 2.3rem;
     }
 }
+@media (max-width:900px){
+    .main{
+        background-position-x: center;
+    }
+}
+
 .men{
     height: 100%;
     background: transparent;
