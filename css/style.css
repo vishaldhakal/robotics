@@ -18,9 +18,9 @@ nav a:hover{
     right: 10px;
 }
 .main{
-    background: url("../images/background-circle.svg");
+    background: url("../images/back.png");
     background-repeat: no-repeat;
-    background-size: inherit;
+    background-position-x: center;
 }
 #title{
     font-weight: 800;
@@ -36,9 +36,6 @@ nav a:hover{
     font-size: 1.25rem;
 }
 @media (max-width:600px){
-    .main{
-        background-size: cover;
-    }
     #aa{
         display: none;
     }
@@ -54,9 +51,10 @@ nav a:hover{
     width: 100%;
 }
 .hh4{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
-
+    margin-bottom: 25px;
 }
 #hovimg img{
     transition: 1s ease;
