@@ -1,4 +1,7 @@
 body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
     box-sizing: border-box;
 }
 #navtop a{
@@ -20,7 +23,7 @@ nav a:hover{
 .main{
     background: url("../images/back.png");
     background-repeat: no-repeat;
-    background-position-x: left;
+    background-position-x: center;
 }
 #title{
     font-weight: 800;
@@ -34,14 +37,6 @@ nav a:hover{
     letter-spacing: 0.05rem;
     color: rgb(73, 73, 73);
     font-size: 1.25rem;
-}
-@media (max-width:600px){
-    #aa{
-        display: none;
-    }
-    .title1{
-        font-size: 2.3rem;
-    }
 }
 @media (max-width:900px){
     .main{
@@ -69,4 +64,24 @@ nav a:hover{
 }
 #hovimg:hover img{
     transform: scale(1);
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+@media (max-width:600px){
+    #aa{
+        display: none;
+    }
+    .title1{
+        font-size: 2.3rem;
+    }
+    .foot{
+        display: block;
+    }
+    .main{
+        background: white;
+    }
 }
