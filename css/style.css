@@ -7,7 +7,6 @@ body{
 
 #navtop a:hover{
     cursor: pointer;
-    background-color: rgb(231, 230, 230);
     border-radius: 10px;
 }
 nav a:hover{
@@ -31,12 +30,10 @@ nav a:hover{
     font-size: 3rem;
 }
 #tex{
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
     color: rgb(73, 73, 73);
     font-size: 1.25rem;
-}
-#secc{
-    padding-top: 70px;
 }
 @media (max-width:600px){
     .main{
@@ -47,9 +44,6 @@ nav a:hover{
     }
     .title1{
         font-size: 2.3rem;
-    }
-    #secc{
-        padding-top: 200px;
     }
 }
 .men{
@@ -63,4 +57,12 @@ nav a:hover{
     font-size: 2rem;
     text-decoration: underline;
 
+}
+#hovimg img{
+    transition: 1s ease;
+    transform: scale(0.9);
+    border-radius: 10px;
+}
+#hovimg:hover img{
+    transform: scale(1);
 }
