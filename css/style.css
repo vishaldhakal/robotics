@@ -1,10 +1,13 @@
+body{
+    box-sizing: border-box;
+}
 #navtop a{
     padding: 7px;
 }
 
 #navtop a:hover{
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(231, 230, 230);
     border-radius: 10px;
 }
 nav a:hover{
@@ -32,6 +35,9 @@ nav a:hover{
     color: rgb(73, 73, 73);
     font-size: 1.25rem;
 }
+#secc{
+    padding-top: 70px;
+}
 @media (max-width:600px){
     .main{
         background-size: cover;
@@ -42,4 +48,19 @@ nav a:hover{
     .title1{
         font-size: 2.3rem;
     }
+    #secc{
+        padding-top: 200px;
+    }
+}
+.men{
+    height: 100%;
+    background: transparent;
+}
+.men header{
+    width: 100%;
+}
+.hh4{
+    font-size: 2rem;
+    text-decoration: underline;
+
 }
