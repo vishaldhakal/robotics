@@ -84,4 +84,7 @@ nav a:hover{
     .main{
         background: white;
     }
+    .title1{
+        font-size: 2rem;
+    }
 }
