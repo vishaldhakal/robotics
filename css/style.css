@@ -67,6 +67,15 @@ nav a:hover{
     width: 100%;
     display: none;
 }
+
+#abcd{
+    background-image: url("../images/back2.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+#ftt{
+    background-color: #fdfdfd;
+}
 @media (max-width:600px){
     #aa{
         display: none;
@@ -83,9 +92,9 @@ nav a:hover{
     .title1{
         font-size: 2rem;
     }
-}
-#ftt{
-    background-color: #fdfdfd;
+    #abcd{
+        background-position-x: right;
+    }
 }
 @media (min-width:900px){
     #ftt{
