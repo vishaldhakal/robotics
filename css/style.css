@@ -73,9 +73,6 @@ nav a:hover{
     background-repeat: no-repeat;
     background-position-x: left;
 }
-#ftt{
-    background-color: #fdfdfd;
-}
 @media (max-width:600px){
     #aa{
         display: none;
@@ -97,7 +94,7 @@ nav a:hover{
         background-size: cover;
     }
 }
-@media (min-width:900px){
+/* @media (min-width:900px){
     #ftt{
         padding-left: 40px;
         padding-right: 40px;
@@ -108,4 +105,4 @@ nav a:hover{
         padding-left: 120px;
         padding-right: 120px;
     }
-}
+} */
