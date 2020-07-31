@@ -93,7 +93,8 @@ nav a:hover{
         font-size: 2rem;
     }
     #abcd{
-        background-position-x: right;
+        background-position-x: left;
+        background-size: cover;
     }
 }
 @media (min-width:900px){
