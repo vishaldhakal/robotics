@@ -84,17 +84,18 @@ nav a:hover{
         font-size: 2rem;
     }
 }
+#ftt{
+    background-color: #fdfdfd;
+}
 @media (min-width:900px){
     #ftt{
         padding-left: 40px;
         padding-right: 40px;
-        background-color: #fdfdfd;
     }
 }
 @media (min-width:1100px){
     #ftt{
         padding-left: 120px;
         padding-right: 120px;
-        background-color: #fdfdfd;
     }
 }
