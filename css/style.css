@@ -79,6 +79,17 @@ nav a:hover{
     background-repeat: no-repeat;
     background-position-x: left;
 }
+.backimg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+}
+#titles{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
 @media (max-width:600px){
     #aa{
         display: none;
@@ -101,6 +112,23 @@ nav a:hover{
     }
     #tex2{
         font-size: 1rem;
+    }
+    .backimg{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150px;
+        width: 150px;
+    }
+    #titles{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+}
+@media (max-width:1200px){
+    #titles{
+        font-weight: 700;
+        font-size: 1.6rem;
     }
 }
 /* @media (min-width:900px){
