@@ -32,7 +32,7 @@
     </section>
     <section class="text-gray-700 body-font">
         <div class="container mx-auto flex px-5 pt-20 items-center justify-center flex-col">
-            <img class="rounded-full flex items-center justify-center" alt="hero" src="images/drone_flying.jpeg"
+            <img class="rounded-full flex items-center justify-center" alt="hero" src="images/cont.jpg"
             id="round">
             <div class="flex flex-col text-center w-full mb-20 mt-10">
                 <h1 class="sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-900" id="title">Get in touch with us</h1>
@@ -48,42 +48,44 @@
 
     <div class="lg:w-2/3 md:w-2/3 mx-auto">
         <div class="flex flex-wrap -m-2">
-            <div class="p-2 w-full">
-                <input
-                    class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-6"
-                    placeholder="Name" type="text">
-            </div>
-            <div class="p-2 w-full">
-                <select
-                    class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-6 mr-10"
-                    placeholder="What's that about ?" type="text">
-                    <option>What's that about ?</option>
-                    <option value="abcd">I am looking for an Internship</option>
-                    <option value="abcd">I have a project for you</option>
-                    <option value="abcd">I need a developer</option>
-                    <option value="abcd">I want to donate</option>
-                    <option value="abcd">Other than above</option>
-                    </select>
-            </div>
-            <div class="p-2 w-1/2">
-                <input
-                    class="w-full bg-blue-100 rounded-lg  focus:outline-none text-base px-4 py-6"
-                    placeholder="Email" type="text">
-            </div>
-            <div class="p-2 w-1/2">
-                <input
-                    class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-6"
-                    placeholder="Phone no" type="text">
-            </div>
-            <div class="p-2 w-full">
-                <textarea
-                    class="w-full bg-blue-100 rounded-lg  focus:outline-none h-48  text-base px-4 py-4 resize-none block"
-                    placeholder="Message"></textarea>
-            </div>
-            <div class="p-2 w-full">
-                <button
-                    class="flex mx-auto text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-500 rounded text-lg">Send</button>
-            </div>
+            <form name="contact" method="POST" data-netlify="true" class="flex flex-wrap -m-2">
+                <div class="p-2 w-full">
+                    <input
+                        class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-6"
+                        placeholder="Name" type="text" name="name">
+                </div>
+                <div class="p-2 w-full">
+                    <select
+                        class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-6 mr-10"
+                        placeholder="What's that about ?" type="text">
+                        <option>What's that about ?</option>
+                        <option value="abcd">I am looking for an Internship</option>
+                        <option value="abcd">I have a project for you</option>
+                        <option value="abcd">I need a developer</option>
+                        <option value="abcd">I want to donate</option>
+                        <option value="abcd">Other than above</option>
+                        </select>
+                </div>
+                <div class="p-2 w-1/2">
+                    <input
+                        class="w-full bg-blue-100 rounded-lg  focus:outline-none text-base px-4 py-6"
+                        placeholder="Email" type="text" name="email">
+                </div>
+                <div class="p-2 w-1/2">
+                    <input
+                        class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-6"
+                        placeholder="Phone no" type="text" name="phone">
+                </div>
+                <div class="p-2 w-full">
+                    <textarea
+                        class="w-full bg-blue-100 rounded-lg  focus:outline-none h-48  text-base px-4 py-4 resize-none block"
+                        placeholder="Message" name="text"></textarea>
+                </div>
+                <div class="p-2 w-full">
+                    <button type="submit"
+                        class="flex mx-auto text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-500 rounded text-lg">Send</button>
+                </div>
+            </form>
         </div>
     </div>
 
