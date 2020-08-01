@@ -279,33 +279,33 @@
                     class="lnr lnr-envelope"></span><span>hello@smartlab.com</span></a></span></p>
             </div>
             <div class="lg:w-2/3 md:w-2/3 mx-auto">
-                <div class="flex flex-wrap -m-2">
+                <form name="message" method="POST" data-netlify="true" class="flex flex-wrap -m-2">
                     <div class="p-2 w-full">
                         <input
                             class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-4 inp"
-                            placeholder="Name" type="text">
+                            placeholder="Name" type="text" name="name">
                     </div>
                     <div class="p-2 w-1/2">
                         <input
                             class="w-full bg-blue-100 rounded-lg  focus:outline-none text-base px-4 py-4"
-                            placeholder="Email" type="text">
+                            placeholder="Email" type="text" name="email">
                     </div>
                     <div class="p-2 w-1/2">
                         <input
                             class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-4"
-                            placeholder="Phone no" type="text">
+                            placeholder="Phone no" type="text" name="phone">
                     </div>
                     <div class="p-2 w-full">
                         <textarea
                             class="w-full bg-blue-100 rounded-lg  focus:outline-none h-48  text-base px-4 py-4 resize-none block"
-                            placeholder="Leave a note"></textarea>
+                            placeholder="Leave a note" name="message"></textarea>
                     </div>
                     <div class="p-2 w-full">
                         <button
                             class="flex mx-auto text-white bg-orange-600 border-0 py-2 px-8 focus:outline-none hover:bg-orange-500 rounded text-lg">Send
                             Message</button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
