@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Lab || Research & Development</title>
+    <title>Smart Lab Nepal|| Research & Development</title>
+    <meta title="Smart Lab Nepal|| Research & Development">
     <meta name="Description" content="SmartLab research & development is an innovative initiative to leverage cutting edge technology powered by AI and Machine Learning.">
     <meta name="Keywords" content="smartlab nepal,drones in nepal,robots,ai,machine learning">
     <link rel="shortcut icon" href="favicon.ico">
@@ -13,6 +14,11 @@
 </head>
 
 <body>
+    <div class="contactus" style="position: fixed;bottom: 30px; right: 40px;">
+        <a href="#contact"><button
+            class="text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-500 rounded text-lg">Contact
+            us</button></a>
+    </div>
     <div class="main">
         <header class="text-gray-700 body-font md:py-5">
             <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
@@ -20,10 +26,11 @@
                     <img src="images/smart_logo.png" alt="logo">
                 </a>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center" id="navtop">
-                    <a class="mr-5 hover:text-gray-900" href="/">Home</a>
-                    <a class="mr-5 hover:text-gray-900" href="drones.html">Robots & Drones</a>
-                    <a class="mr-5 hover:text-gray-900">Vision AI</a>
-                    <a class="mr-5 hover:text-gray-900" href="carrers.html">Careers</a>
+                    <a class="mr-5 hover:text-gray-900 active" href="/">Home</a>
+                    <a class="mr-5 hover:text-gray-900" href="/robotics-and-drones-in-nepal/">Robots & Drones</a>
+                    <a class="mr-5 hover:text-gray-900" href="/vision-ai/">Vision AI</a>
+                    <a class="mr-5 hover:text-gray-900" href="/blog/">Community</a>
+                    <a class="mr-5 hover:text-gray-900" href="/carrers/">Careers</a>
                 </nav>
                 <button
                     class="inline-flex items-center bg-orange-600  border-0 py-1 px-2 focus:outline-none hover:bg-orange-500 rounded-full text-white mt-4 md:mt-0">
@@ -51,7 +58,7 @@
                     </p>
                     <br>
                     <div class="flex justify-center">
-                        <a href="contacts.html"><button
+                        <a href="/contact/"><button
                                 class="inline-flex text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-500 rounded text-lg">Contact
                                 us</button></a>
                     </div>
@@ -275,12 +282,32 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="md:w-1/4 w-1/2 lg:mb-0 p-4 bg-gray-100">
+                            <div class="h-full text-center">
+                                <img alt="testimonial"
+                                    class="w-50 h-50 mb-0 object-cover object-center rounded-full inline-block"
+                                    src="images/slack_pic8.png">
+                                <br>
+                                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-0"></span>
+                                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm"
+                                    style="font-size: 1.5rem;"><strong>Shrawan Thakur                                    </strong>
+                                </h2>
+                                <p class="text-gray-500 mb-4">AI Expert/Engineer</p>
+                                <a href="#">
+                                    <center><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                        </svg></center>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </div>
     </section>
-    <section class="text-gray-700 body-font">
+    <section class="text-gray-700 body-font" id="contact">
         <div class="container px-5 py-24 mx-auto ">
             <div class="flex flex-col text-center w-full mb-12">
                 <h2 class="sm:text-4xl text-2xl font-medium title-font mb-0 text-gray-900" id="title">We are just a
@@ -288,10 +315,10 @@
                 </h2>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base" id="tex">or email us at <span
                         class="text-blue-600 underline"><a href="mailto:hello@smartlab.com"><span
-                                class="lnr lnr-envelope"></span><span>hello@smartlab.com</span></a></span></p>
+                                class="lnr lnr-envelope"></span><span>hello@smartlabnepal.com</span></a></span></p>
             </div>
             <div class="lg:w-2/3 md:w-2/3 mx-auto">
-                <form name="message" method="POST" data-netlify="true" class="flex flex-wrap -m-2">
+                <form action="FormToEmail.php" method="post" class="flex flex-wrap -m-2">
                     <div class="p-2 w-full">
                         <input class="w-full bg-blue-100 rounded-lg  focus:outline-none  text-base px-4 py-4 inp"
                             placeholder="Name" type="text" name="name">
@@ -322,9 +349,10 @@
         <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center bg-gray-900">
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a class="mr-5 text-white" href="/">Home</a>
-                <a class="mr-5 text-white" href="drones.html">Robots & Drones</a>
-                <a class="mr-5 text-white">Vision AI</a>
-                <a class="mr-5 text-white" href="carrers.html">Careers</a>
+                <a class="mr-5 text-white" href="/robotics-and-drones-in-nepal/">Robots & Drones</a>
+                <a class="mr-5 text-white" href="/vision-ai/">Vision AI</a>
+                <a class="mr-5 text-white" href="/blog/">Community</a>
+                <a class="mr-5 text-white" href="/carrers/">Careers</a>
             </nav>
         </div>
     </div>
@@ -337,7 +365,7 @@
                         <div class="w-full flex-shrink-0 md:mx-auto mx-auto text-center md:text-left md:pl-20 md:ml-20">
                             <a
                                 class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                                <img src="images/smart_logo.png" alt="log">
+                                <img src="../images/smart_logo.png" alt="log">
                             </a>
                             <p class="mt-10 text-sm text-gray-900 pl-6 pr-4 md:px-0">SmartLab research & development is
                                 initiative to
@@ -409,10 +437,10 @@
                                 style="font-size:1.5rem ;"><strong><b>CANADA</b></strong></h2>
                             <nav class="list-none mb-10">
                                 <li>
-                                    <a class="text-gray-800">100 City Center Drive,<br> Mississaga</a>
+                                    <a class="text-gray-800"> Robert Speck PkwyMississauga,<br> ON L4Z 1S1
                                 </li>
                                 <li>
-                                    <a class="text-gray-800">Ontario, Canada</a>
+                                    <a class="text-gray-800">Canada</a>
                                 </li>
                                 <li>
                                     <a href="tel:+1 647 667 7947" class="text-blue-500"><span>+1
@@ -428,11 +456,16 @@
             <nav class="mx-auto flex flex-wrap items-center text-base justify-center">
                 <a class="ml-5 mr-5 text-gray-900" href="/"><strong>HOME</strong></a>
                 <hr style="width: 3px;height: 10px;background-color:rgb(255, 153, 0) ;">
-                <a class="ml-5 mr-5 text-gray-900" href="drones.html"><strong>ROBOTS & DRONES</strong></a>
+                <a class="ml-5 mr-5 text-gray-900" href="/robotics-and-drones-in-nepal/"><strong>ROBOTS & DRONES</strong></a>
                 <hr style="width: 3px;height: 10px;background-color:rgb(255, 153, 0) ;">
-                <a class="ml-5 mr-5 text-gray-900"><strong>VISION AI</strong></a>
+                <a class="ml-5 mr-5 text-gray-900" href="/vision-ai/"><strong>VISION AI</strong></a>
                 <hr style="width: 3px;height: 10px;background-color:rgb(255, 153, 0) ;">
-                <a class="ml-5 mr-5 text-gray-900" href="carrers.html"><strong>CAREERS</strong></a>
+                <a class="ml-5 mr-5 text-gray-900" href="/carrers/"><strong>CAREERS</strong></a>
+                <hr style="width: 3px;height: 10px;background-color:rgb(255, 153, 0) ;">
+                <a class="ml-5 mr-5 text-gray-900" href="/contact/"><strong>CONTACT US</strong></a>
+                <hr style="width: 3px;height: 10px;background-color:rgb(255, 153, 0) ;">
+                <a class="ml-5 mr-5 text-gray-900" href="/blog/"><strong>COMMUNITY</strong></a>
+
             </nav>
         </div>
     </section>

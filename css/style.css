@@ -9,6 +9,7 @@ body{
 }
 a:hover{
     cursor: pointer;
+    color: black;
 }
 #navtop a:hover{
     cursor: pointer;
@@ -16,6 +17,10 @@ a:hover{
 }
 nav a:hover{
     cursor: pointer;
+}
+.active{
+    font-weight: 700;
+    color: black;
 }
 #mybtn{
     position: fixed;
