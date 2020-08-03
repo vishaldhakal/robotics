@@ -95,6 +95,10 @@ nav a:hover{
     font-weight: bold;
     font-size: 2.5rem;
 }
+.ifr{
+    height: 300px;
+    width: 500px;
+}
 @media (max-width:600px){
     #aa{
         display: none;
@@ -128,6 +132,10 @@ nav a:hover{
     #titles{
         font-weight: 700;
         font-size: 3rem;
+    }
+    .ifr{
+        height: auto;
+        width: auto;
     }
 }
 @media (max-width:1200px){
@@ -165,6 +173,4 @@ nav a:hover{
     color: rgb(95, 95, 95) !important;
     font-weight: 500;
     font-size: 1rem;
-}
-#myVideo {
 }
